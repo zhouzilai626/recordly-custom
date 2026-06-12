@@ -12,6 +12,13 @@
 - 导出视频声音已验证正常。
 - 自动字幕暂时不用，因此不需要下载 Whisper 模型。
 
+## 下载安装
+
+当前安装包发布在 GitHub Release：
+
+- Release 页面：https://github.com/zzpt8/recordly-custom/releases/tag/v1.0.0-custom
+- Windows 安装包：https://github.com/zzpt8/recordly-custom/releases/download/v1.0.0-custom/Recordly-Custom-1.0.0-Windows-x64.exe
+
 ## 目录说明
 
 - `asar-inspect/`：当前安装版应用包解出的内容，便于备份和追踪已生效的改造。
