@@ -48,6 +48,7 @@ assertIncludes(mainPath, "{ timeout: 45000, windowsHide: true }", "longer HTTPS 
 assertIncludes(mainPath, "手机摄像头需要 HTTPS", "Windows phone camera refuses insecure HTTP fallback");
 assertIncludes(mainPath, "recordlyPhoneCameraGetUserMediaFallback", "mobile camera getUserMedia fallback");
 assertIncludes(mainPath, "当前页面不是 HTTPS 安全连接", "mobile camera insecure context hint");
+assertNotIncludes(mainPath, "transform:scaleX(-1)", "mirrored phone camera preview");
 assertIncludes(mainPath, "recordlyPhoneCameraShowConnectInfo", "system connect prompt");
 assertIncludes(mainPath, "m.clipboard.writeText(info.url)", "connect URL clipboard copy");
 assertIncludes(mainPath, 'require("qrcode")', "local QR code dependency");
